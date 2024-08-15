@@ -1,11 +1,43 @@
-# Bertoti
+# Atividade 1: Resumo das citaçoes
 
  ##### We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
 ##### Essa citação enfatiza que o programador de engenharia de software deve trabalhar com três fundamentos importantes para executar uma gestão de projeto com eficiencia e resolver problemas estabelecidos, através da organização do tempo, da alta escala e eficiência, e tomada de decisões com grandes riscos.
 
-### __________________________________________________________________________________________________________________________
+### _____________________________________________________________________________________________________________________
 
 ##### Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
 ##### Essa citaçao enfatiza que a engenharia de software é a base da programação, e é mais completa e com mais tarefas, já que a programação trabalha apenas com o desenvolvimento, enquanto a engenharia de software também trabalha com modificação e manuntençao ao decorrer do tempo.
+
+
+
+
+
+
+
+# Atividade 2: Trade offs
+
+### 1. Windows vs Linux
+
+##### Windows: ele oferece uma ampla compatibilidade de software, isto, um suporte para uma grande variedade de softwares comerciais para aplicativos de desktop, e tambem possui uma interface gráfica familiar e ferramentas de gerenciamento conhecidas. No entanto, seu uso envolve altos cuscos de licenciamento, e possui menos flexibilidade em personalização e otimização do sistema operacional.
+
+##### Linux: ele é gratuito e contém uma open source que permite uma personalização profunda e um melhor acesso ao codigo fonte para fazer otimizações especificas, além disso, é mais seguro e estável com menos vulnerabilidades e riscos de malware. No entanto, individuos acostumados com outros sistemas operacionais pode encontrar dificuldades de aprender a utilizar e trabalhar no linux, e muitos jogos e softwares não sao compativeis com esse sistema.
+
+
+
+### 2. Python vs Java
+
+##### Python:a sua sintaxe é simples e legivel, facil de ser compreendida, trocando o codigo simples de ler, escrever e manter, além disso, permite um desenvolvimento mais rápido e uma ótima prototipagem para que seja util ao trabalhar em ambientes ageis. Entretanto, ele é mais lento do que outras linguagens de programação e pode consumir mais memória e ter menos controle sobre o gerenciamento de recursos do que linguagens como java.
+
+##### Java: ele é altamente portatil por conta do uso de sua JVM, isto é, de sua máquina virtual, que permite que seu codigo seja executado em qualquer plataforma que suporte a JVM, e possui um desempenho mais consistente e eficiente em ambientes de largas escalas. Entretanto, sua sintaxe envolve mais detalhes e possui um código mais extenso e mais complexo, além disso, o desenvolvimento nessa linguagem torna-se mais lento por conta de sua natureza detalhada, e pelo fato de conter estruturas de códigos mais robustas.
+
+
+
+### 3. Mysql vs Redis
+
+##### Mysql: ele oferede transações ACID com atomicidade, consistencia, isolamento e durabilidade que garante que as operaçoes do banco  de dados sejam executados de forma consistente e confiável, e a integridade referencial é mantida por chaves primárias e estrangeiras, que garantem a correção de dados ao longo das tabelas; além disso, permitem execução de consultas SQL complexas, podendo filtrar os dados das tabelas, e também sua linguagem SQL é poderosa, expressiva e ideal para relatórios complexos e análises de dados. Entretanto, sua escala vertical que aumenta a capacidade do servidor pode tornar seu uso mais caro e limitado, além de prejudixar seu desempenho em cenários de alta concorrencia e grande volumes de dados. Além disso, também nao é a melhor escolha para aplicativos que exigem desempenho em tempo real, pois os dados sao armazenados em discos e tornam as operaçoes mais lentas.
+
+#### Redis: Apresenta alto desempenho pois a redis armazena todos os dados na memória e sua latencia é baixa; e tambem suporta sharding e clustering que mantém a distribuiçao de dados por diversos nós e melhoram a escala horizontal, e podem lidar de forma eficiente  com cargas de trabalho pesadas aumentando a capacidade de processamento. No entretanto, ela nao tem o foco principal na persistencia de dados e nao é confiavel para o armazenamento a longo prazo de dados e em caso de falhas pode ocorrer perda de dados. Além disso não é projetado para consultas SQL complexas ou relacionamento de dados por conta da falta de suporte a SQL.
+
+
