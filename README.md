@@ -85,7 +85,41 @@
 
 ###### Consistência vs. Atualidade: O Twitter enfrenta o desafio de manter um feed consistente, que não mude abruptamente, versus a necessidade de fornecer informações atualizadas e relevantes em tempo real. Isso pode resultar em uma experiência onde o conteúdo mais recente não é imediatamente visível, ou mudanças frequentes na timeline do usuário.
 
+## Atividade 4: Diagrama de UML
 
-
-
-
+    import java.utli.List;
+    import java.util.LinkedList;
+    
+    public class Time {
+      private List<Jogador> jogadores = newLinkedList<Jogador>();
+      public void adicionarJogador(Jogador jogador){
+      produtos.add(produto);
+      }
+      public List<Jogador> buscarJogadorPorNome(String Nome){
+        List<Jogador> encontrados = newLinkedList(Jogador>();
+        for(Jogador jogador: jogadores){
+           if(jogador.getNome().equals(Nome)encontrados.add(Produto);
+             encontrados.add(Jogador);
+       }
+       return encontrados;
+             }
+    }
+    
+    Time
+    -jogadores: List<Jogador>
+    
+    --------------------------------
+    +adicionarJogador(Jogador)
+    +buscarJogadorPorNome(String): List<Produto>
+    
+    
+    
+    Jogador
+    -Nome: String
+    -Posição: String 
+    
+    ---------------------------
+    +getNome(): String
+    +setNome(String)
+    +getPosição():String
+    +setPosição(String)
