@@ -93,7 +93,7 @@
     public class Time {
       private List<Jogador> jogadores = newLinkedList<Jogador>();
       public void adicionarJogador(Jogador jogador){
-      produtos.add(produto);
+      jogadores.add(jogador);
       }
       public List<Jogador> buscarJogadorPorNome(String Nome){
         List<Jogador> encontrados = newLinkedList(Jogador>();
