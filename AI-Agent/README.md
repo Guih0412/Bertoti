@@ -1,7 +1,4 @@
-✅ README.md para seu projeto:
-markdown
-Copiar
-Editar
+
 # 🎵 Agente de Web Scraping de Letras de Músicas com BeautifulSoup
 
 Este projeto é um agente inteligente que realiza **web scraping de letras de músicas no site [letras.mus.br](https://www.letras.mus.br)**. Ele foi desenvolvido com base no template de agentes da Hugging Face e roda localmente com modelos de linguagem via [Ollama](https://ollama.com/).
